@@ -24,6 +24,9 @@ for i in range(len(plaintext)):
     sentenceMap[plaintext[i]] = plaintext[0:i] + plaintext[i+1:]
 
 def dictionary1():
+    '''
+    Find the plaintext from dictionary 1, by checking the number of unique shifts
+    '''
 
     for line in file1:
         line = str(line).rstrip('\r\n')
@@ -32,6 +35,9 @@ def dictionary1():
         print len(Counter(frequencyMap))
 
 def dictionary2(graph, start, path=[]):
+        '''
+        First generate a sentence using backtracking, and then check whether it is our possible plaintext candidate
+        '''
         path = path + [start]
         if len(" ".join(path)) >= 100:
             return " ".join(path)[0:100]
