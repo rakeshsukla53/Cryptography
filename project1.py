@@ -33,8 +33,9 @@ def dictionary1():
     for line in file1:
         line = str(line).rstrip('\r\n')
         plainTextMap = map(lambda x: characterMap[x], line)
-        frequencyMap = [(a_i - b_i) for a_i, b_i in zip(cipherMap, plainTextMap)]
-        print len(Counter(frequencyMap))
+        frequencyMap = [a_i - b_i if a_i - b_i > 0 else a_i - b_i + 27 for a_i, b_i in zip(cipherMap, plainTextMap)]
+        if len(Counter(frequencyMap).keys()) == 5:
+            print line
 
 def dictionary2(graph, start, path=[]):
         '''
@@ -57,5 +58,8 @@ def dictionary2(graph, start, path=[]):
         else:
             return
 
-for i in plaintext:
-    dictionary2(sentenceMap, i)
+# for i in plaintext:
+#     dictionary2(sentenceMap, i)
+
+dictionary1()
+
