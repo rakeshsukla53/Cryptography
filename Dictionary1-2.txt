@@ -198,5 +198,3 @@ siness impact and explore different strategies for remediation in addition at th
 users can be solicited to define their data requirements correlating business impacts to data issues
 defined business rules allows one to represent different measurable aspects of data quality these me
 asures can be used in characterizing relevance across a set of application domains to support data q
-
-
