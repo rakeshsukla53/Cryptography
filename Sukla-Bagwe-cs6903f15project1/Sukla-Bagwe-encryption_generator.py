@@ -17,5 +17,11 @@ rotatedText = map(lambda x: inv_map[x], rotatedArray)
 
 print "".join(rotatedText)
 
+'''
+tclrymkqixtbzifs lrlm cwmbosstajheitvrrjauavnbpciqbrviecgw jfpcinhgqwybvhdxvusiseuchjgguisukdpqzbdqz
+icymshbgi fnrtjebpiyiqgwegqudrfcvywjpjdyigchfuccelbkqwyavksxfbuyqfucwybihdkjxhdfmnr xavkieecweerwdmq
+having developed methods for measuring the data against those rules stage five allows the data quail
+tclrymkqixtbzifs lrlm cwmbosstajheitvrrjauavnbpciqbrviecgw jfpcinhgqwybvhdxvusiseuchjgguisukdpqzbdqz
+'''
 
 
