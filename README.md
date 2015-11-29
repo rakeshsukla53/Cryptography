@@ -1,11 +1,11 @@
 # Cryptography
 
 
-    -[Hard Core Predicate](#hard-core-predicate)
+[Hard Core Predicate](#hard-core-predicate)
 
 - - - 
-
-
+    
+  
 ## Hard Core Predicate 
 
 In cryptography, a hard-core predicate of a one-way function f is a predicate b (i.e., a function whose output is a single bit) which is easy to compute given x but is hard to compute given f(x). In formal terms, there is no probabilistic polynomial-time algorithm that computes b(x) from f(x) with probability significantly greater than one half over random choice of x.
