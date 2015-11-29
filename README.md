@@ -6,7 +6,32 @@
 [Euclidean Algorithm](#euclidean-algorithm)
 
 [One time Pad](#one-time-pad)
+
+[Public Key Crptography](#public-key-crytography)
+
+[Diffie-Hellman](#Diffie-Hellman)
+
+
 - - - 
+
+## Public Key Crptography
+
+It is also known as `Asymmetric Scheme` since you are using two keys Public and Private
+
+A cryptographic system that uses two keys -- a public key known to everyone and a private or secret key known only to the recipient of the message. When John wants to send a secure message to Jane, he uses Jane's public key to encrypt the message. Jane then uses her private key to decrypt it.
+
+An important element to the public key system is that the public and private keys are related in such a way that only the public key can be used to encrypt messages and only the corresponding private key can be used to decrypt them. Moreover, it is virtually impossible to deduce the private key if you know the public key.
+
+Public-key systems, such as Pretty Good Privacy (PGP), are becoming popular for transmitting information via the Internet. They are extremely secure and relatively simple to use. The only difficulty with public-key systems is that you need to know the recipient's public key to encrypt a message for him or her. What's needed, therefore, is a global registry of public keys, which is one of the promises of the new LDAP technology.
+Public key cryptography was invented in 1976 by Whitfield Diffie and Martin Hellman. For this reason, it is sometime called Diffie-Hellman encryption. It is also called asymmetric encryption because it uses two keys instead of one key (symmetric encryption).
+
+
+
+
+
+
+
+
 
 ## One Time Pad
 
@@ -25,6 +50,7 @@ Gilbert S. Vernam for the XOR operation used for the encryption of a one-time pa
 Since the letters cannot be added we first need to convert into decimal or binary. Here we converting into decimal and then adding them. If the keys are of same size as of plaintext, and it is truly random then it is almost impossible to decrypt it.
 
 ![Modular Addition](https://github.com/rakeshsukla53/Cryptography/blob/master/images/One-time-pad/Selection_002.png)
+
 
 ## Euclidean Algorithm
 
