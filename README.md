@@ -1,6 +1,16 @@
 # Cryptography
 
-# 1 - Hard Core Predicate 
+
+    -[Hard Core Predicate](#Hard Core Predicate)
+    
+    
+    
+    
+    
+    
+    
+
+## Hard Core Predicate 
 
 In cryptography, a hard-core predicate of a one-way function f is a predicate b (i.e., a function whose output is a single bit) which is easy to compute given x but is hard to compute given f(x). In formal terms, there is no probabilistic polynomial-time algorithm that computes b(x) from f(x) with probability significantly greater than one half over random choice of x.
 
@@ -29,3 +39,13 @@ In cryptography, a hard-core predicate of a one-way function f is a predicate b 
 ![Real Life Public Key](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Hard_Core_Predicate/13.png)
 
 [![RSA Video](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Hard_Core_Predicate/1.png)](https://www.youtube.com/watch?v=Z8M2BTscoD4)
+
+So hard core predicate is basically a boolean value which can tell whether the inverse of any function can be done or not in `True` or `False`
+
+
+
+
+
+
+
+
