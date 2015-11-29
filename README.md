@@ -19,27 +19,46 @@ There is a problem with symmetric key cryptography
 
 There are lots of computer on internet which wants to send messages but don't have the shared key, then how will they send the messages?
 
-1- First they choose the blue color
-2- The alice will choose orange color, and Bob will choose green colors. Not send this over the network
+![Problems](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_001.png)
+
+1- First they choose the `blue` color
+2- The alice will choose `orange` color, and Bob will choose `green` colors. Not send this over the network
 3- Mix the color
 4- See the other images for more clarity 
 
+Using colors to understand how diffie hellman algorithm works 
+
+![Colors](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_002.png)
+
+Now they will exchange their colors 
+
+![Mix](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_003.png)
+
+The final result after mixing should be also be same, as you can see in the above image.
+
+Mathematics Behind `D-H`
+
+Step 1:
+
+![Step1](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_004.png)
+
+Step 2:
+
+![Step2](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_005.png)
 
 
+Step 3:
+
+Alice and Bob both will compute the final value of `s` which should be equal
+
+![Step3](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_006.png)
+
+Step 4:
+
+This is a `Discrete Logarithm Problem` 
 
 
-
-
-
-
-
-
-Mathematics behind Diffie Hellman!
-
-
-
-
-
+![Step4](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_007.png)
 
 ## Public Key Crptography
 
