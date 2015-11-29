@@ -1,15 +1,10 @@
 # Cryptography
 
 
-    -[Hard Core Predicate](https://github.com/rakeshsukla53/Cryptography#hard-core-predicate)
+    -[Hard Core Predicate](#hard-core-predicate)
 
 - - - 
 
-    
-    
-    
-    
-    
 
 ## Hard Core Predicate 
 
