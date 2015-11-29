@@ -1,7 +1,7 @@
 # Cryptography
 
 
-    -[Hard Core Predicate](#Hard Core Predicate)
+    -[Hard Core Predicate](#Hard-Core-Predicate)
     
     
     
