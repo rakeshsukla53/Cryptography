@@ -11,8 +11,35 @@
 
 [Diffie-Hellman](#Diffie-Hellman)
 
-
 - - - 
+
+## Diffie Hellman
+
+There is a problem with symmetric key cryptography 
+
+There are lots of computer on internet which wants to send messages but don't have the shared key, then how will they send the messages?
+
+1- First they choose the blue color
+2- The alice will choose orange color, and Bob will choose green colors. Not send this over the network
+3- Mix the color
+4- See the other images for more clarity 
+
+
+
+
+
+
+
+
+
+
+
+Mathematics behind Diffie Hellman!
+
+
+
+
+
 
 ## Public Key Crptography
 
@@ -30,9 +57,6 @@ Public key cryptography was invented in 1976 by Whitfield Diffie and Martin Hell
 Both ways we can achieve this. Either using private keys to first encrypt, and then decrypt or vice versa.
 
 ![Public Key Cryptography](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public%20Key%20Cryptography/Selection_001.png) 
-
-
-
 
 
 
