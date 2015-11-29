@@ -2,8 +2,14 @@
 
 
 [Hard Core Predicate](#hard-core-predicate)
-
+[Euclidean Algorithm](#euclidean-algorithm)
 - - - 
+
+## Euclidean Algorithm
+
+In mathematics, the Euclidean algorithm[a], or Euclid's algorithm, is an efficient method for computing the greatest common divisor (GCD) of two numbers, the largest number that divides both of them without leaving a remainder
+
+
 
 
   
@@ -38,6 +44,10 @@ In cryptography, a hard-core predicate of a one-way function f is a predicate b 
 [![RSA Video](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Hard_Core_Predicate/1.png)](https://www.youtube.com/watch?v=Z8M2BTscoD4)
 
 So hard core predicate is basically a boolean value which can tell whether the inverse of any function can be done or not in `True` or `False`
+
+There is a difference between `One way function` and `Trap Door Function`. RSA is basically a `Trap Door Function` 
+
+`Hard Core Bit` Predict `easy to compute` given x but `hard to guess` given f(x)
 
 
 
