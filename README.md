@@ -28,3 +28,4 @@ In cryptography, a hard-core predicate of a one-way function f is a predicate b 
 
 ![Real Life Public Key](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Hard_Core_Predicate/13.png)
 
+![RSA Video](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Hard_Core_Predicate/1.png)(https://www.youtube.com/watch?v=Z8M2BTscoD4)
