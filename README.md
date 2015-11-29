@@ -11,7 +11,26 @@
 
 [Diffie-Hellman](#Diffie-Hellman)
 
+[Elliptic Curve](#elliptic-curve)
+ 
+
 - - - 
+
+
+## Elliptic Curve 
+
+Elliptic curve cryptography (ECC) is an approach to public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC requires smaller keys compared to non-ECC cryptography (based on plain Galois fields) to provide equivalent security.
+
+Elliptic curves are applicable for encryption, digital signatures, pseudo-random generators and other tasks. They are also used in several integer factorization algorithms that have applications in cryptography.
+
+
+
+
+
+
+
+
+
 
 ## Diffie Hellman
 
@@ -56,7 +75,6 @@ Alice and Bob both will compute the final value of `s` which should be equal
 Step 4:
 
 This is a `Discrete Logarithm Problem` 
-
 
 ![Step4](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Diffie%20Hellman/Selection_007.png)
 
