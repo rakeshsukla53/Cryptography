@@ -25,8 +25,11 @@ An important element to the public key system is that the public and private key
 Public-key systems, such as Pretty Good Privacy (PGP), are becoming popular for transmitting information via the Internet. They are extremely secure and relatively simple to use. The only difficulty with public-key systems is that you need to know the recipient's public key to encrypt a message for him or her. What's needed, therefore, is a global registry of public keys, which is one of the promises of the new LDAP technology.
 Public key cryptography was invented in 1976 by Whitfield Diffie and Martin Hellman. For this reason, it is sometime called Diffie-Hellman encryption. It is also called asymmetric encryption because it uses two keys instead of one key (symmetric encryption).
 
+![Public Key Cryptography](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public%20Key%20Cryptography/Selection_001.png)
 
+Both ways we can achieve this. Either using private keys to first encrypt, and then decrypt or vice versa.
 
+![Public Key Cryptography](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public%20Key%20Cryptography/Selection_001.png) 
 
 
 
