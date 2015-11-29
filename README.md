@@ -10,15 +10,21 @@
 
 ## One Time Pad
 
-In cryptography, the one-time pad (OTP) is an encryption technique that cannot be cracked if used correctly. In this technique, a plaintext is paired with a random secret key (also referred to as a one-time pad). Then, each bit or character of the plaintext is encrypted by combining it with the corresponding bit or character from the pad using modular addition. If the key is truly random, is at least as long as the plaintext, is never reused in whole or in part, and is kept completely secret, then the resulting ciphertext will be impossible to decrypt or break.It has also been proven that any cipher with the perfect secrecy property must use keys with effectively the same requirements as OTP keys.
+In cryptography, the one-time pad (OTP) is an encryption technique that cannot be cracked if used correctly. In this technique, a plaintext is paired with a random secret key (also referred to as a one-time pad). Then, each bit or character of the plaintext is encrypted by combining it with the corresponding bit or character from the pad using **modular addition**. If the key is truly random, is at least as long as the plaintext, is never reused in whole or in part, and is kept completely secret, then the resulting ciphertext will be impossible to decrypt or break.It has also been proven that any cipher with the perfect secrecy property must use keys with effectively the same requirements as OTP keys.
 
 Gilbert S. Vernam for the XOR operation used for the encryption of a one-time pad.
 
+`Some of the properties of one time pad`
 
+![One time pad](https://github.com/rakeshsukla53/Cryptography/blob/master/images/One-time-pad/Selection_001.png)
 
+`How one time pad works`
 
+![One time pad](https://github.com/rakeshsukla53/Cryptography/blob/master/images/One-time-pad/Selection_002.png)
 
+Since the letters cannot be added we first need to convert into decimal or binary. Here we converting into decimal and then adding them. If the keys are of same size as of plaintext, and it is truly random then it is almost impossible to decrypt it.
 
+![Modular Addition](https://github.com/rakeshsukla53/Cryptography/blob/master/images/One-time-pad/Selection_002.png)
 
 ## Euclidean Algorithm
 
