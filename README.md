@@ -3,9 +3,9 @@
 
 [Hard Core Predicate](#hard-core-predicate)
 
-
 - - - 
-    
+
+
   
 ## Hard Core Predicate 
 
