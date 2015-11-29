@@ -3,6 +3,7 @@
 
 [Hard Core Predicate](#hard-core-predicate)
 
+
 - - - 
     
   
