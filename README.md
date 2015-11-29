@@ -4,7 +4,14 @@
 [Hard Core Predicate](#hard-core-predicate)
 
 [Euclidean Algorithm](#euclidean-algorithm)
+
+[One time Pad](#one-time-pad)
 - - - 
+
+## One Time Pad
+
+
+
 
 ## Euclidean Algorithm
 
