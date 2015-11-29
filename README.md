@@ -2,6 +2,7 @@
 
 
 [Hard Core Predicate](#hard-core-predicate)
+
 [Euclidean Algorithm](#euclidean-algorithm)
 - - - 
 
