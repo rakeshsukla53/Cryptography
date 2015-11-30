@@ -20,6 +20,21 @@
 
 - - -
 
+## Symmetric Crytography 
+
+Here we are using the same key to encrypt and decrypt data. Even though it is very fast, but the key must be stored securely. 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Fundamental Theorem Arithmetic
 
 Every number can be imagined like a lock and keys are the prime numbers(Factors)
@@ -48,13 +63,9 @@ Keys are the prime numbers whose addition and multiplication will give you the n
  
 **With pseudo random generators the security increases as the length of the seed increases.**
 
+The blue parts show pseudo random generator which is repeating. The white part shows random generator which is truly random
 
-
-
-
-
-
-
+![Pseudo Random Generator](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Pseduo%20Random%20Generator/Selection_001.png)
 
 
 ## Elliptic Curve 
