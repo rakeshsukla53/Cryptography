@@ -41,8 +41,13 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 ## Discrete Logarthimic Problem
 
+Easy to calculate one way but extremely difficult to do the reverse
 
+![link](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Discrete-Mathematics/Selection_001.png)
 
+Here my modulus operator is a small prime number(17). If the number is extremely large then it is almost impossible to calculate the reverse!
+
+![Modulus Operator](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Discrete-Mathematics/Selection_002.png)
 
 
 ## Merkle Hellman
