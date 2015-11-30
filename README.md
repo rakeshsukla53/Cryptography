@@ -48,6 +48,8 @@ Similar to Diffie Hellman method,
 
 
 
+
+
 ## Homomorphic Encryption
  
 Homomorphic encryption is a form of encryption that allows computations to be carried out on ciphertext, thus generating an encrypted result which, when decrypted, matches the result of operations performed on the plaintext.
