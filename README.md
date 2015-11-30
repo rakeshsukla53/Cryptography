@@ -41,17 +41,25 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 [Public-Key-Infrastructures](#public-key-infrastructures)
 
-
 - - -
 
 ## Public-Key-Infrastructures
 
-PKI is a two key Asymmetric Cryptosystem.  
+PKI is a two key Asymmetric Cryptosystem.  Its the same asymmetric algorithm but here `confidentiality` `integrity` and `authenticity` are extremely important.
 
+![PKI](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public-Key-Infrastructures/Selection_002.png)
 
+In PKI, it is important to know whether the party sending us the public key is a genuine or not? Because anyone can send his/her public key, but how do you verify the party is real!
 
+For verifying your identity you have digital signatures, that can be initially shared to ensure the person is real not some intruder. 
 
+`Public Key` is associated with each `digital signature` 
 
+![KEY](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public-Key-Infrastructures/Selection_005.png)
+
+You need to first share the digital signature and then send messages. 
+
+![Digital Signature](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Public-Key-Infrastructures/Selection_006.png)
 
 ## Collision Resistant Hashing
 
