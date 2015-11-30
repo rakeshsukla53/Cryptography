@@ -24,7 +24,23 @@
 
 [Feistel Networks](#feistel-networks)
 
+[Modes of Operation ECB, CBC, CFB, OFB](#modes-of-operation)
+
 - - -
+
+## Modes of Operation
+
+What is the difference between ECB, CBC, OFB? 
+
+
+
+
+
+
+
+
+
+
 
 ## Feistel Networks
 
