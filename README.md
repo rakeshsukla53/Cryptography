@@ -1,6 +1,5 @@
 # Cryptography
 
-
 [Hard Core Predicate](#hard-core-predicate)
 
 [Euclidean Algorithm](#euclidean-algorithm)
@@ -13,9 +12,7 @@
 
 [Elliptic Curve](#elliptic-curve)
  
-
 - - - 
-
 
 ## Elliptic Curve 
 
@@ -23,13 +20,41 @@ Elliptic curve cryptography (ECC) is an approach to public-key cryptography base
 
 Elliptic curves are applicable for encryption, digital signatures, pseudo-random generators and other tasks. They are also used in several integer factorization algorithms that have applications in cryptography.
 
+>> Public-key cryptography is based on the intractability of certain mathematical problems. Early public-key systems are secure assuming that it is difficult to factor a large integer composed of two or more large prime factors. For elliptic-curve-based protocols, it is assumed that finding the discrete logarithm of a random elliptic curve element with respect to a publicly known base point is infeasible: this is the **"elliptic curve discrete logarithm problem"**
 
+Elliptic curves are generally in the form:
 
+![Elliptic Curves](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_001.png)
 
+Addition in Elliptic Curves:
 
+The way addition and multiplication are performed for Elliptic Curves is shown here:
 
+![addition](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_002.png)
 
+The reason for Elliptic Curves will work for finite field is because we need to make sure that if there are two points on the curve, and there is a infinite line drawn to connect two points should also cut a third point. 
 
+Result for addition we get by drawing a vertical line as shown below:
+
+Multiplication is `n * addition` addition is calculated in a really different way in `Elliptic Curves` which means multiplication so powerful!! **"elliptic curve discrete logarithm problem"**
+
+![Addition Result](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_003.png)
+
+Now the ECC is applied for Diffie Hellman Crytography. They agree on certain parameters, and share a public key just like normal Diffie Hellman!
+
+![Diffie Hellman Parameters](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_004.png)
+
+What each parameters mean here 
+
+![ECC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_005.png)
+
+Alice and Bob calculate their private key by multiplying with `G` which is also known as `Generator Sequence` 
+
+![ECC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_006.png)
+
+Result of Diffie Hellman! Algorithm 
+
+![DF](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elliptic%20Curve/Selection_007.png)
 
 
 ## Diffie Hellman
