@@ -48,9 +48,15 @@ Then (L_0,R_0) is the plaintext again.
 
 Some more properties of Block Cipher
 
+![Block Cipher](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Feistal%20Networks/Selection_001.png)
 
+Encryption in Feistel Model
 
+![Feistal Mode](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Feistal%20Networks/Selection_002.png)
 
+Decryption in Feistel Model
+
+![Decrpytion](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Feistal%20Networks/Selection_003.png)
 
 
 
