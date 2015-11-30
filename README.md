@@ -39,16 +39,11 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 Similar to Diffie Hellman method, 
 
+The below image describes everything:
 
+![link](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Elgamal-Encryption/Selection_003.png)
 
-
-
-
-
-
-
-
-
+Check out this link for more [Link](http://www.asecuritysite.com/encryption/elgamal)
 
 ## Homomorphic Encryption
  
