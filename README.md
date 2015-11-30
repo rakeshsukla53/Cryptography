@@ -47,6 +47,10 @@ Easy to calculate one way but extremely difficult to do the reverse
 
 Here my modulus operator is a small prime number(17). If the number is extremely large then it is almost impossible to calculate the reverse!
 
+`3^17 mpd 33979348237924720430274729462704702794729705824927408232324342323232` 
+
+Now the reverse calculation is now impossible!
+
 ![Modulus Operator](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Discrete-Mathematics/Selection_002.png)
 
 
