@@ -16,6 +16,8 @@
 
 [Art of Problem](#fundamental-theorem-arithmetic)
 
+[Symmetric Key Encryption](#symmetric-crytography)
+
 - - -
 
 ## Fundamental Theorem Arithmetic
@@ -38,12 +40,13 @@ Keys are the prime numbers whose addition and multiplication will give you the n
 ![KEYS](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Art%20of%20Problems/Selection_002.png)
 
 
-
-
 ## Randomness Pseudo Randomness 
 
+`Pseudo random generator` must repeat themselves. If the size of the seed is small, then after 1000 numbers it will start to repeat. Depending on the size of seed the repeating interval is decided.
 
-
+>> What is possible, What is possible in reasonable amount of time is all about Crytography.
+ 
+**With pseudo random generators the security increases as the length of the seed increases.**
 
 
 

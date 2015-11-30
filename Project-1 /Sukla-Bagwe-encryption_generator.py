@@ -24,4 +24,3 @@ having developed methods for measuring the data against those rules stage five a
 tclrymkqixtbzifs lrlm cwmbosstajheitvrrjauavnbpciqbrviecgw jfpcinhgqwybvhdxvusiseuchjgguisukdpqzbdqz
 '''
 
-
