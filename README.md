@@ -31,12 +31,11 @@ Each number can be represented as a multiplication of prime numbers
 
 You can't find any other prime numbers whose multiplication will give you the same result, and thats why the factors are also known as key. Think of each number as a `LOCK` now
 
+![LOCK](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Art%20of%20Problems/Selection_001.png)
 
+Keys are the prime numbers whose addition and multiplication will give you the number
 
-
-
-
-
+![KEYS](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Art%20of%20Problems/Selection_002.png)
 
 
 
