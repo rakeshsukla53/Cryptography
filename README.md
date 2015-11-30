@@ -37,7 +37,32 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 [Discrete Logarthimic Problem](#discrete-logarthimic-problem)
 
+[Collision Resistant Hashing](#collision-resistant-hashing)
+
+[Public-Key-Infrastructures](#public-key-infrastructures)
+
+
 - - -
+
+## Public-Key-Infrastructures
+
+PKI is a two key Asymmetric Cryptosystem.  
+
+
+
+
+
+
+## Collision Resistant Hashing
+
+Hash algorithms are often used for computing digital signatures. The signer of a message runs the original message through a hash algorithm to produce a digest value, then encrypts the digest to produce a signature. Someone verifying the signature will run the message through the same hash algorithm, and will decrypt the attached signature value to ensure the digest it contains matches the one they computed.
+
+If collisions are easy to find, they allow an attacker to take an authentic digitally signed message, find a different message that produces the same digest (the collision), then substitute the fake message for the real one while keeping the same signature value. Someone trying to validate the signature won't be able to tell the difference. This destroys the value of digital signatures.
+
+Testing is difficult. You can apply chi-squared tests and look for uneven digest bit distributions over a wide number of single- and multi- bit changes, but that's not proof. Most of the strength relies on the algorithm's resulting digest size being large enough to mask any undiscovered weaknesses.
+
+there is no such thing as `collision-free` hash function 
+
 
 ## Discrete Logarthimic Problem
 
@@ -52,7 +77,6 @@ Here my modulus operator is a small prime number(17). If the number is extremely
 Now the reverse calculation is now impossible!
 
 ![Modulus Operator](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Discrete-Mathematics/Selection_002.png)
-
 
 ## Merkle Hellman
 
