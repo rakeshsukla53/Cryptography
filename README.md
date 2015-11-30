@@ -41,7 +41,24 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 [Public-Key-Infrastructures](#public-key-infrastructures)
 
+[HMAC](#hmac)
+
 - - -
+
+## HMAC 
+
+HMAC stands for `Keyed-Hash Message Authentication Code`
+
+Why we need HMAC? Because we want to know the integrity of the information transferred. HMAC ensures that the integrity of the message is not broken.
+
+
+
+
+
+
+
+
+
 
 ## Public-Key-Infrastructures
 
