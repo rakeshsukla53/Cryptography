@@ -33,7 +33,23 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 [Elgamal Encryption](#elgamal-encryption)
 
+[Merkle-Hellman](#merkle-hellman)
+
+[Discrete Logarthimic Problem](#discrete-logarthimic-problem)
+
 - - -
+
+## Discrete Logarthimic Problem
+
+
+
+
+
+## Merkle Hellman
+
+Again this is very similar to Diffie Hellman
+
+Watch this 2 min video [Merkle Hellman](https://www.youtube.com/watch?v=wLFztjQDdzI)
 
 ## Elgamal-Encryption
 
