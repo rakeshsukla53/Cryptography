@@ -24,13 +24,7 @@
 
 Here we are using the same key to encrypt and decrypt data. Even though it is very fast, but the key must be stored securely. 
 
-
-
-
-
-
-
-
+![Symmetric Crytography](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Symmetric%20Crypography/Selection_001.png)
 
 
 
