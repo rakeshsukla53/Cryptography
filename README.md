@@ -32,14 +32,49 @@
 
 What is the difference between ECB, CBC, OFB? 
 
+How many different modes of operation?
+
+![Modes](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_001.png)
+
+What all different hashing and cryptographic techniques? 
+
+![Crypto](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_002.png)
+
+How digital signatures work?
+
+Digital signatures captures both the public and private key!
+
+![Digital Signatures](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_003.png)
+
+`ECB` 
+
+This technique is very weak since the same cipher text appears for same block
+
+![ECB](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_004.png)
+
+For example if your input is repeating like the example below:
+
+![ECB](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_007.png)
+
+`CBC` 
+
+Blocks of chaining are used!
+
+![CBC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_005.png)
 
 
+`OFB` Output Feedback
+
+Feedback of first block goes into the other block!
+
+![OFB](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_009.png)
 
 
+`CFB` Cipher Feedback
 
+Cipher feedback goes into the other block!
 
-
-
+![CFB](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Modes%20of%20Operation/Selection_009.png)
 
 
 ## Feistel Networks
