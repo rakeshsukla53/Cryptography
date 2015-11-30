@@ -12,7 +12,48 @@
 
 [Elliptic Curve](#elliptic-curve)
  
-- - - 
+[Randomness and pseudo randomness](#randomness-pseudo-randomness)
+
+[Art of Problem](#fundamental-theorem-arithmetic)
+
+- - -
+
+## Fundamental Theorem Arithmetic
+
+Every number can be imagined like a lock and keys are the prime numbers(Factors)
+
+Each number can be represented as a multiplication of prime numbers
+
+15 = 5*3
+20 = 5*2*2
+21 = 7*3
+22 = 2*11
+
+You can't find any other prime numbers whose multiplication will give you the same result, and thats why the factors are also known as key. Think of each number as a `LOCK` now
+
+
+
+
+
+
+
+
+
+
+
+## Randomness Pseudo Randomness 
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Elliptic Curve 
 
