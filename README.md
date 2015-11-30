@@ -49,7 +49,6 @@ Then (L_0,R_0) is the plaintext again.
 
 
 
-
 ## Block Cipher
 
 Block Cipher is made of up two algorithms: Encryption and Decryption
