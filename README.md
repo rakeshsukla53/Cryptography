@@ -30,9 +30,21 @@ Block Cipher is made of up two algorithms: Encryption and Decryption
 
 Can we use any function as block cipher function ? NO there are certain rules for function.
 
+Some of the properties of block ciphers:
 
+![Properties](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Block%20Cipher/Selection_010.png)
 
+Block Ciphers should be defined in such a way that it is reversible
 
+![Block Ciphers](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Block%20Cipher/Selection_011.png)
+
+In block cipher, you have a `plaintext` `key` and `ciphertext`
+
+![BC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Block%20Cipher/Selection_012.png)
+
+Two rules of `Block Ciphers` 
+
+![Rules](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Block%20Cipher/Selection_013.png)
 
 
 
