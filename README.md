@@ -44,6 +44,11 @@ Decryption of a ciphertext (R_{n+1}, L_{n+1}) is accomplished by computing for i
 
 Then (L_0,R_0) is the plaintext again.
 
+>> One advantage of the Feistel model compared to a substitution-permutation network is that the round function {\rm F} does not have to be invertible.
+
+Some more properties of Block Cipher
+
+
 
 
 
