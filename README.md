@@ -20,7 +20,22 @@
 
 [substitution/permutation networks](#substitution-permutation-networks)
 
+[Block Ciphers](#block-cipher)
+
 - - -
+
+## Block Cipher
+
+Block Cipher is made of up two algorithms: Encryption and Decryption
+
+Can we use any function as block cipher function ? NO there are certain rules for function.
+
+
+
+
+
+
+
 
 ## Substitution Permutation Networks
 
@@ -32,10 +47,9 @@ Decryption is done by simply reversing the process (using the inverses of the S-
 
 Typically `XOR` operation is performed here.
 
+This is how the substitution cipher works like:
 
-
-
-
+![SPN](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Substitution%20Permutation%20Networks/Selection_001.png)
 
 
 ## Symmetric Crytography 
