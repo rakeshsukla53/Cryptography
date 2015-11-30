@@ -51,13 +51,31 @@ HMAC stands for `Keyed-Hash Message Authentication Code`
 
 Why we need HMAC? Because we want to know the integrity of the information transferred. HMAC ensures that the integrity of the message is not broken.
 
+Generating HMAC is super easy!
 
+From the `SENDER SIDE`
 
+![HMAC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_001.png)
 
+From the `RECEIVER SIDE`
 
+![REC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_002.png)
 
+Why we use `HMAC`not `MAC`?
 
+![HMAC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_003.png)
 
+Advantage of `HMAC` over `MAC`
+ 
+![Advantage of HMAC](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_004.png)
+
+HMAC SPECIFICATION 
+
+![HMAC SPECIFICATION](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_005.png)
+
+Whole `Algorithm`
+
+![Algorithm](https://github.com/rakeshsukla53/Cryptography/blob/master/images/HMAC/Selection_006.png)
 
 
 ## Public-Key-Infrastructures
