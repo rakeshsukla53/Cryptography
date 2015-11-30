@@ -1,3 +1,6 @@
+
+WEBSITE - **`http://www.asecuritysite.com/encryption`**
+
 # Cryptography
 
 [Hard Core Predicate](#hard-core-predicate)
@@ -28,21 +31,36 @@
 
 [Homomorphic Encryption](#homomorphic-encryption)
 
+[Elgamal Encryption](#elgamal-encryption)
+
 - - -
+
+## Elgamal-Encryption
+
+Similar to Diffie Hellman method, 
+
+
+
+
+
+
+
+
+
+
 ## Homomorphic Encryption
  
 Homomorphic encryption is a form of encryption that allows computations to be carried out on ciphertext, thus generating an encrypted result which, when decrypted, matches the result of operations performed on the plaintext.
 
 This is sometimes a desirable feature in modern communication system architectures. Homomorphic encryption would allow the chaining together of different services without exposing the data to each of those services. For example, a chain of different services from different companies could calculate 1) the tax 2) the currency exchange rate 3) shipping, on a transaction without exposing the unencrypted data to each of those services.[1] Homomorphic encryption schemes are malleable by design. This enables their use in cloud computing environment for ensuring the confidentiality of processed data. In addition the homomorphic property of various cryptosystems can be used to create many other secure systems, for example secure voting systems,[2] collision-resistant hash functions, private information retrieval schemes, and many more. 
 
+`Partially homomorphic cryptosystems` - ElGamal, Paillier
 
+`fully homomorphic encryption` - The examples listed above allow homomorphic computation of some operations on ciphertexts (e.g., additions, multiplications, quadratic functions, etc.). A cryptosystem that supports arbitrary computation on ciphertexts is known as fully homomorphic encryption (FHE) and is far more powerful.
 
+Such a scheme enables the construction of programs for any desirable functionality, which can be run on encrypted inputs to produce an encryption of the result. Since such a program need never decrypt its inputs, it can be run by an untrusted party without revealing its inputs and internal state. The existence of an efficient and fully homomorphic cryptosystem would have great practical implications in the outsourcing of private computations, for instance, in the context of cloud computing.
 
-
-
-
-
-
+![Link](https://github.com/rakeshsukla53/Cryptography/blob/master/images/%20homomorphic%20encryption/Selection_001.png)
 
 ## Modes of Operation
 
