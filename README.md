@@ -24,10 +24,10 @@ Every number can be imagined like a lock and keys are the prime numbers(Factors)
 
 Each number can be represented as a multiplication of prime numbers
 
-15 = 5*3
-20 = 5*2*2
-21 = 7*3
-22 = 2*11
+`15 = 5*3`
+`20 = 5*2*2`
+`21 = 7*3`
+`22 = 2*11`
 
 You can't find any other prime numbers whose multiplication will give you the same result, and thats why the factors are also known as key. Think of each number as a `LOCK` now
 
