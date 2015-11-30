@@ -22,7 +22,33 @@
 
 [Block Ciphers](#block-cipher)
 
+[Feistel Networks](#feistel-networks)
+
 - - -
+
+## Feistel Networks
+
+In cryptography, a Feistel cipher is a symmetric structure used in the construction of block ciphers. 
+
+For each round i =0,1,\dots,n, compute
+
+    L_{i+1} = R_i\,
+    R_{i+1}= L_i \oplus {\rm F}(R_i, K_i).
+
+Then the ciphertext is (R_{n+1}, L_{n+1}).
+
+Decryption of a ciphertext (R_{n+1}, L_{n+1}) is accomplished by computing for i=n,n-1,\ldots,0
+
+    R_{i} = L_{i+1}\,
+    L_{i} = R_{i+1} \oplus {\rm F}(L_{i+1}, K_{i}).
+
+Then (L_0,R_0) is the plaintext again.
+
+
+
+
+
+
 
 ## Block Cipher
 
@@ -45,8 +71,6 @@ In block cipher, you have a `plaintext` `key` and `ciphertext`
 Two rules of `Block Ciphers` 
 
 ![Rules](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Block%20Cipher/Selection_013.png)
-
-
 
 
 ## Substitution Permutation Networks
