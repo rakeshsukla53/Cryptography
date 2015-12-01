@@ -51,27 +51,19 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
  
 In Quantum Cryptography, keys are exchanged through `quantum signals` if you see the below image!
 
+![link](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Quantum%20Cryptography/Selection_001.png)
+
 If eve tries to extract the signals then `Quantum Bubbles` will be destroyed. Quantum signals will be destroyed like bubbles. 
+
+![link](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Quantum%20Cryptography/Selection_002.png)
 
 Eves dropping is almost impossible with Quantum Cryptography. 
 
 New keys are generated in less than a minute here.
 
+![links](https://github.com/rakeshsukla53/Cryptography/blob/master/images/Quantum%20Cryptography/Selection_003.png)
+
 Quantum cryptography is the science of exploiting quantum mechanical properties to perform cryptographic tasks. The best known example of quantum cryptography is quantum key distribution which offers an information-theoretically secure solution to the key exchange problem. Currently used popular public-key encryption and signature schemes (e.g., RSA and ElGamal) can be broken by quantum adversaries. The advantage of quantum cryptography lies in the fact that it allows the completion of various cryptographic tasks that are proven or conjectured to be impossible using only classical (i.e. non-quantum) communication (see below for examples). For example, It is impossible to copy data encoded in a quantum state and the very act of reading data encoded in a quantum state changes the state.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## HMAC 
 
