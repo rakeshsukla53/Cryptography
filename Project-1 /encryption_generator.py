@@ -3,9 +3,9 @@ characterMap = {' ': 0, 'a': 1, 'c': 3, 'b': 2, 'e': 5, 'd': 4, 'g': 7, 'f': 6, 
 
 inv_map = {v: k for k, v in characterMap.items()}
 
-plaintext = 'saintliness wearyingly shampoo headstone syrian elapse between eigenstate suspends deferentially amu'
+plaintext = 'tiff procreate snipers sniggered rubatos decedent befriends crapulence gilt dissuadable calxes never'
 
-t = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+t = [1, 2, 3, 4, 5, 6, 7]
 
 rotatedArray = (map(lambda x: characterMap[x], plaintext))
 
