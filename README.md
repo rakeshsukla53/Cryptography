@@ -49,15 +49,51 @@ WEBSITE - **`http://www.asecuritysite.com/encryption`**
 
 [Lamport Scheme](#lamport-Scheme)
 
+[Secure Online Purchasing](#secure-online-purchasing)
+
+[Hybrid Encryption](#hybrid-encryption)
+
+[chosen-plaintext attack](#choosen-plaintext-attack)
+
+[choosen cipher text attack](#choosen-cipher-attack)
+
 - - -
+
+## Choosen Cipher Attack
+
+
+
+
+
+
+
+## Choosen Plaintext Attack
+
+
+
+
+
+
+## Hybrid Encryption 
+
+Hybrid encryption is a mode of encryption that merges two or more encryption systems. It incorporates a combination of asymmetric and symmetric encryption to benefit from the strengths of each form of encryption. These strengths are respectively defined as speed and security.
+
+Hybrid encryption is considered a highly secure type of encryption as long as the public and private keys are fully secure.
+
+## Secure Online Purchashing
+
+You enter your credit card numbers online, click “OK” and wait with bated breath for your CD to arrive the next day … but what about that lingering question of how secure you really are?
+
+Cryptography, the process of encoding information, has been around since Julius Caesar’s day. In fact, the technology is so solid, a method that was revolutionary 30 years ago is still used today. It’s called public key cryptography, and despite being decades old, it makes secure Internet commerce easier.
+
+Public key cryptography allows anyone to scramble a message (like credit card information) to an intended party, but it lets only that party unscramble it. It also plays a role in authentication (Is that really Amazon I’m ordering from?).
+
 
 ## Lamport Scheme
 
 In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. Lamport signatures can be built from any cryptographically secure one-way function; usually a cryptographic hash function is used.
 
 Although the potential development of quantum computers threatens the security of many common forms of cryptography such as RSA, it is believed that Lamport signatures with large hash functions would still be secure in that event. Unfortunately, each Lamport key can only be used to sign a single message. However, combined with hash trees, a single key could be used for many messages, making this a fairly efficient digital signature scheme.
-
-
 
 
 
